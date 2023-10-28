@@ -8,6 +8,7 @@
 
 - `React` - 18.2.0
 - `TypeScript` - 4.9.5
+- `Tailwind CSS` - 3.3.5
 - `WSL2` - Ubuntu 22.04 LTS
 
 ## etc.

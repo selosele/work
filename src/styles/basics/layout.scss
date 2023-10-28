@@ -1,0 +1,19 @@
+html {
+  font-size: 14px;
+
+  @media (min-width: 640px) {
+    font-size: 15px;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 17px;
+  }
+}
+
+body {
+  @apply bg-stone-50 text-lg leading-8 break-keep;
+}
