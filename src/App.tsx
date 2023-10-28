@@ -1,10 +1,12 @@
-import React from 'react';
 import './App.scss';
+import Layout from './components/Layout/Layout';
 
-export default function App() {
+function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <Layout>
+      내용
+    </Layout>
   );
 }
+
+export default App;
