@@ -13,6 +13,6 @@ export const StyledGalleryListItem = tw.li`
 `;
 
 /** 이미지 박스 컴포넌트 스타일 */
-export const StyledImageBox = tw.li`
+export const StyledImageBox = tw.div`
   w-[20rem]
 `;
