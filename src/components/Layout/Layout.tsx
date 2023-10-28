@@ -1,19 +1,19 @@
-import React from 'react';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
+import { Children } from '../../types/global';
 import { StyledLayout, StyledMain } from './styles';
 
 /** 레이아웃 컴포넌트 */
-function Layout(props: { children: React.ReactNode }) {
+function Layout({ children }: Children) {
   return (
     <StyledLayout>
-      <Header text="selosele's portfolio" />
+      <Header text="selosele's works" />
 
       <StyledMain>
-        {props.children}
+        {children}
       </StyledMain>
 
-      <Footer text="selosele's portfolio" />
+      <Footer text="selosele's works" />
     </StyledLayout>
   );
 }
