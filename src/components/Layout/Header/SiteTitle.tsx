@@ -1,13 +1,14 @@
 import useUiTextStore from "../../../stores/ui-text-store";
+import { StyledSiteTitle } from "./styles";
 
 /** 사이트 타이틀 컴포넌트 */
 function SiteTitle() {
   const { json } = useUiTextStore();
 
   return (
-    <h1>
+    <StyledSiteTitle>
       {json['title']}
-    </h1>
+    </StyledSiteTitle>
   );
 }
 
