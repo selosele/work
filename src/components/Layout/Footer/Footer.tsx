@@ -1,11 +1,14 @@
 import { StyledFooter, StyledFooterText } from "./styles";
+import useUiTextStore from "../../../stores/ui-text-store";
 
 /** footer 컴포넌트 */
-function Footer(props: { text: string }) {
+function Footer() {
+  const { json } = useUiTextStore();
+
   return (
     <StyledFooter>
       <StyledFooterText>
-        {props.text}
+        {json['description']}
       </StyledFooterText>
     </StyledFooter>
   );

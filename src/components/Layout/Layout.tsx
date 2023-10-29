@@ -7,13 +7,13 @@ import { StyledLayout, StyledMain } from './styles';
 function Layout({ children }: Children) {
   return (
     <StyledLayout>
-      <Header text="selosele's works" />
+      <Header />
 
       <StyledMain>
         {children}
       </StyledMain>
 
-      <Footer text="selosele's works" />
+      <Footer />
     </StyledLayout>
   );
 }
