@@ -3,13 +3,13 @@
   "description": "selosele's works",
   "works": [
     {
-      "title": "abc11",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque totam, corrupti eum doloribus illo nihil molestias, velit aut saepe excepturi mollitia expedita! Odit in minima voluptatibus at ipsam! Enim, quibusdam!",
-      "image": "https://res.cloudinary.com/dbrgfvqgb/image/upload/v1640960758/bl1ivsw8kykmudbm9pdc.jpg"
+      "title": "개인 이력서 페이지",
+      "description": "Nuxt.js로 개발하여 운영 중인 개인 이력서 페이지입니다.",
+      "image": ""
     },
     {
-      "title": "abc22",
-      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque totam, corrupti eum doloribus illo nihil molestias, velit aut saepe excepturi mollitia expedita! Odit in minima voluptatibus at ipsam! Enim, quibusdam!",
+      "title": "개인 블로그",
+      "description": "NestJS, Vue.js로 개발, 운영하고 있습니다.",
       "image": "https://res.cloudinary.com/dbrgfvqgb/image/upload/v1640960758/bl1ivsw8kykmudbm9pdc.jpg"
     }
   ]

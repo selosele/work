@@ -5,7 +5,11 @@ import { UiTextWorks } from "../../types/ui-text";
 function GalleryImageBox(props: UiTextWorks) {
   return (
     <StyledImageBox>
-      <img src={props.image} alt="" />
+      {props.image ? (
+        <img src={props.image} alt="" />
+      ) : (
+        "no-image 스타일 필요"
+      )}
     </StyledImageBox>
   );
 }

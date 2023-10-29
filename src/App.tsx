@@ -12,21 +12,17 @@ function App() {
     load();
   }, [load]);
 
-  const galleryListItem = json?.['works']?.map((data, index) => {
-    return (
-      <GalleryListItem
-        key={index}
-        title={data.title}
-        description={data.description}
-        image={data.image}
-      />
-    );
-  });
-
   return (
     <Layout>
       <GalleryList>
-        {galleryListItem}
+      {json?.['works']?.map((data, index) => (
+        <GalleryListItem
+          key={index}
+          title={data.title}
+          description={data.description}
+          image={data.image}
+        />
+      ))}
       </GalleryList>
     </Layout>
   );
