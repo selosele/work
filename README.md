@@ -6,9 +6,9 @@
 
 ## 기술스택 및 개발환경
 
-- `React` - 18.2.0
-- `TypeScript` - 4.9.5
-- `Tailwind CSS` - 3.3.5
+- `React` - v18.2.0
+- `TypeScript` - v4.9.5
+- `Tailwind CSS` - v3.3.5
 - `WSL2` - Ubuntu 22.04 LTS
 
 ## etc.
