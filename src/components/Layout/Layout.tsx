@@ -6,15 +6,17 @@ import { StyledLayout, StyledMain } from './styles';
 /** 레이아웃 컴포넌트 */
 function Layout({ children }: Children) {
   return (
-    <StyledLayout>
-      <Header />
+    <>
+      <StyledLayout>
+        <Header />
 
-      <StyledMain>
-        {children}
-      </StyledMain>
+        <StyledMain>
+          {children}
+        </StyledMain>
 
-      <Footer />
-    </StyledLayout>
+        <Footer />
+      </StyledLayout>
+    </>
   );
 }
 
