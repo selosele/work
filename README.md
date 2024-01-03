@@ -11,7 +11,7 @@
 - `Tailwind CSS` - v3.3.5
 - `WSL2` - Ubuntu 22.04 LTS
 
-## 애플리케이션 구동 절차
+## 개발환경 구동 절차
 
 1. `npm install`
 2. `npm start`
